@@ -9,7 +9,6 @@ import google.generativeai as genai
 import json
 import datetime
 import random
-a
 # लॉगिंग सेटअप
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
