@@ -6,8 +6,6 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton
 from telegram.constants import ChatAction
 import google.generativeai as genai
-from flask import Flask
-from threading import Thread
 import json
 import datetime
 import random
