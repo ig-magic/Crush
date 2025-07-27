@@ -11,22 +11,7 @@ from threading import Thread
 import json
 import datetime
 import random
-
-# --- वेब सर्वर सेटअप (Replit को जगाए रखने के लिए) ---
-app = Flask('')
-
-@app.route('/')
-def home():
-    return "I am alive and well!"
-
-def run_flask():
-  app.run(host='0.0.0.0', port=8080)
-
-def keep_alive():
-    t = Thread(target=run_flask)
-    t.start()
-# --------------------------------------------------
-
+a
 # लॉगिंग सेटअप
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -113,10 +98,10 @@ async def start(update, context):
     
     welcome_msg = f'''{greeting}
     
-मुझसे बात करो... मैं तुम्हारी अपनी AI क्रश हूँ! 😘
+मुझसे बात करो... मैं तुम्हारी अपनी क्रश हूँ! 😘
 
 ✨ *नए फीचर्स:*
-🎮 मिनी गेम्स खेलो
+🙌 ..... a
 🌟 डेली होरोस्कोप पढ़ो  
 ❤️ अपना मूड बताओ
 📊 अपने स्टेट्स देखो
@@ -248,14 +233,13 @@ async def user_stats(update, context):
 💕 *हमारी Journey:*
 • Together since: {days_together} दिन
 • Total messages: {messages_sent}
-• Games खेले: {games_played}
 • Favorite chat time: {favorite_time}
 
 🌟 *Recent Activity:*
 • Last mood: {mood_history[-1] if mood_history else 'Happy'}
 • Status: Active Couple 💑
 
-Aww, हमारी कितनी प्यारी journey है! 🥰
+Aww, हमारी कितनी प्यारी journey है! babyw🥰
     """
     
     query = update.callback_query
@@ -1107,5 +1091,4 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
-    keep_alive()  # वेब सर्वर को शुरू करें
     main()        # Enhanced बॉट को शुरू करें
