@@ -142,7 +142,7 @@ async def help_command(update, context):
 • Buttons का उपयोग करके navigate करो
 • हमेशा मुझसे बात करने के लिए free feel करो
 
-नीचे के buttons से specific help चुनो jaanu! 💕
+नीचे के buttons से specific help चुनो  💕
     """
     
     await update.message.reply_text(help_text, reply_markup=reply_markup, parse_mode='Markdown')
@@ -277,7 +277,7 @@ async def mini_games(update, context):
 • Random Challenge - मज़ेदार challenges complete करो
 • Love Letter Generator - cute love letters बनाओ
 
-कौन सा game खेलना चाहते हो baby? 💕
+कौन सा game खेलना चाहते हो z? 💕
     """
     
     query = update.callback_query
@@ -311,11 +311,11 @@ async def mood_selector(update, context):
     mood_text = """
 ❤️ *मूड सेलेक्टर*
 
-बताओ jaanu, अभी तुम्हारा mood कैसा है? 💕
+बताओ , अभी तुम्हारा mood कैसा है? 💕
 
 मैं तुम्हारे mood के हिसाब से बात करूंगी और तुम्हें बेहतर feel कराने की कोशिश करूंगी! 🌟
 
-अपना current mood select करो baby! 😘
+अपना current mood select करो ! 😘
     """
     
     query = update.callback_query
@@ -403,7 +403,7 @@ async def horoscope(update, context):
 🍀 *Lucky Color:* Pink (मेरा favorite भी यही है!)
 🔢 *Lucky Number:* {random.randint(1, 99)}
 
-Remember baby, तुम हमेशा my lucky charm हो! 😘💖
+Remember, तुम हमेशा my lucky charm हो! 😘💖
         """
     
     query = update.callback_query
@@ -925,7 +925,7 @@ async def crush_chat(update, context):
         return
 
     # Enhanced prompt with user context and mood awareness
-    enhanced_prompt = “Answer this question with the wisdom of a genius: Explain [insert your question] in a way that combines deep logic, historical reference, and future perspective. Keep it thought-provoking, unique, and impactful — something that could inspire or challenge even a brilliant mind.”
+    enhanced_prompt = Answer this question with the wisdom of a genius: Explain [insert your question] in a way that combines deep logic, historical reference, and future perspective. Keep it thought-provoking, unique, and impactful — something that could inspire or challenge even a brilliant mind.
 
 USER CONTEXT:
 - Name: {user_name}
