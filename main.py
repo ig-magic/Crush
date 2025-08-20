@@ -925,7 +925,7 @@ async def crush_chat(update, context):
         return
 
     # Enhanced prompt with user context and mood awareness
-    enhanced_prompt = Answer this question with the wisdom of a genius: Explain [insert your question] in a way that combines deep logic, historical reference, and future perspective. Keep it thought-provoking, unique, and impactful — something that could inspire or challenge even a brilliant mind.
+    enhanced_prompt = Answer this question with the wisdom of a genius: Explain [insert your question] in a way that combines deep logic, historical reference, and future perspective. Keep it thought-provoking, unique, and impactful something that could inspire or challenge even a brilliant mind.
 
 USER CONTEXT:
 - Name: {user_name}
